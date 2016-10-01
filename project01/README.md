@@ -9,7 +9,7 @@ Email: lily_li@berkeley.edu
 
 ##Structure of this Project  
 
-'''
+```
 project01/
     .gitignore
     README.md
@@ -28,4 +28,4 @@ project01/
         markdown-logo.png
         pandoc-logo.png
         stat159-logo.png
-'''
+```
