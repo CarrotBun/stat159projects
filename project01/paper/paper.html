@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="stat-159-project-1-paper">STAT 159 Project 1 Paper</h1>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/stat159-logo.png" />
+
+</div>
+<h2 id="abstract">ABSTRACT</h2>
+<p><strong>Author</strong>: Lily Li</p>
+<hr />
+<p>This paper contains details on how Makefiles, Git, Pandoc, and Markdown come together to create a productive workflow for reproducible projects. There is also comments and feedback on the attempt of this project.</p>
+<p>Sections of this paper are divided into:<br />
+0. Abstract<br />
+1. Introduction<br />
+2. Discussion<br />
+3. Conclusions</p>
+<p>For more information about the scope and purpose of this project, refer to <a href="https://github.com/CarrotBun/stat159-fall-2016/blob/master/projects/proj01/proj01-essay.Rmd">here</a>.</p>
+<h2 id="introduction">INTRODUCTION</h2>
+<hr />
+<h3 id="makefiles">Makefiles</h3>
+<p><strong>Explain what is a Makefile and its role in the RR workflow.</strong><br />
+A Makefile is a file with commands used in the terminal. It also links files and directories together and describes the way they interact. It's extremely useful when a certain source file is modified because the linking in makefiles allow for updates.</p>
+<h3 id="git">Git</h3>
+<p><strong>Explain what is Git, and its role in the RR workflow.</strong><br />
+<img src="https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/git-logo.png" /><br />
+<img src="https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/github-logo.png" /><br />
+Git is a version control system. It allows for snapshots and merged versions of your project. Along with Github, it allows for collaborative and sharable data because it takes into account of multiple timelines and users and allows for online sharing. It's especially useful when you have multiple authors working on the same project and everyone is working at a different pace. It will combine all the edits effectively without the users worrying about overlaps or undue deletions.</p>
+<h3 id="pandoc">Pandoc</h3>
+<p><strong>Explain what is pandoc.</strong><br />
+<img src="https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/pandoc-logo.png" /><br />
+Pandoc is a file converter you can use directly through terminal. It works best when the input is Markdown because this is about the maximum of expressive format pandoc can convert seamlessly.</p>
+<h3 id="markdown">Markdown</h3>
+<p><strong>Explain what is markdown.</strong><br />
+<img src="https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/markdown-logo.png" /><br />
+Markdown is a text editor designed to be able to be easily converted into other formats. It allows for some formatting such as titles, lists, bolding, italicizing, and indentions but not overly expressive formatting such as margins and colors.</p>
+<h2 id="discussion">DISCUSSION</h2>
+<hr />
+<h3 id="project-narrative">Project Narrative</h3>
+<p><strong>Write a narrative about how you worked on this project.</strong><br />
+Before I started, I observed the structure of the file organization in the instructions. I then created a new directory in my stat159 local folder, named &quot;projects&quot; to contain all my current and future projects.</p>
+<p>I created a new directory &quot;project01&quot; to contain this particular project. Once inside project01, I initiated Git and added a .gitignore file. I also made a Makefile to create some of the subdirectories. It was especially useful for the sections of the paper. On Github, I created a new repository for this project and connected the two. I added my .DS_Store file to my .gitignore because it's just Mac's file ordering information and irrelevant to Github. Whenever I had changes in my files, I would add and commit them. Then I would push them to update my Github backup.</p>
+<h3 id="project-resources">Project Resources</h3>
+<p>Besides the resources mentioned here (makefiles, git, pandoc, markdown), I obtained help from help pages of Github and Makefiles.</p>
+<h2 id="conclusion">CONCLUSION</h2>
+<hr />
+<p><strong>&quot;Easy&quot; Parts</strong><br />
+The easy part was creating the files and directories.</p>
+<p><strong>Challenging Parts</strong><br />
+Some difficulties include connecting my github repository to my local file. There were some permission issues that I had to resolve.</p>
+<p><strong>What things you were stuck with?</strong><br />
+I was stuck on creating a Makefile that would generate the &quot;00-abstract.md, 01-introduction.md, etc.&quot; in one command.</p>
+<p><strong>Did you work with and/or get help from someone else?</strong><br />
+I worked by myself but received help from CS people who were familiar with Github and Git.</p>
+<p><strong>How much time did it take?</strong><br />
+I worked on this project on and off for a few days.</p>
+</body>
+</html>
